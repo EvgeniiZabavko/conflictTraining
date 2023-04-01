@@ -1,11 +1,23 @@
 <?php
+Задача №5 <br>
+<?php
+     $txt1='Чем дальше';
+     $txt2='тем интереснее';
+     function concatenatStrings($txt1,$txt2) {
+        $result = $txt1.','.$txt2;
+        return $result;
+        }
+        echo concatenatStrings($txt1,$txt2);
+        ?><br>
 
-// $arr = array('a','b','c',);
-// $paded = array_pad($arr, 5, 0);
 
-// echo'<pre>';
-// print_r ($paded);
-// echo'</pre>';
+
+$arr = array('a','b','c',);
+$paded = array_pad($arr, 5, 0);
+
+echo'<pre>';
+print_r ($paded);
+echo'</pre>';
 
 
 
